@@ -6,7 +6,7 @@
 
 ## Description
 
-This Web site allows users to discover new friends and add them to private groups called circles. It uses the [Circles API](https://github.com/ejordan1/CirclesApiAzure).
+This Web site allows users to discover new friends and add them to private groups called circles.
 
 The user can:
 * Register a new account and log in
@@ -18,9 +18,9 @@ A user can only edit their own profile, and only view and edit their own circles
 
 #### Related GitHub Repositories
 
+* Circles Web API (Azure hosted version): https://github.com/ejordan1/CirclesApiAzure
 * Circles MVC app (local database version): https://github.com/erik-t-irgens/CIRCLES_MVC
 * Circles Web API (local database version): https://github.com/schoinh/circles-api
-* Circles Web API (Azure hosted version): https://github.com/ejordan1/CirclesApiAzure
 
 ## Setup/Installation Requirements
 
