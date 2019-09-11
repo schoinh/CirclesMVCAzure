@@ -6,7 +6,7 @@
 
 ## Description
 
-This Web site allows users to discover new friends and add them to private groups called circles. It uses the [Circles API](https://github.com/schoinh/circles-api).
+This Web site allows users to discover new friends and add them to private groups called circles. It uses the [Circles API](https://github.com/ejordan1/CirclesApiAzure).
 
 The user can:
 * Register a new account and log in
@@ -16,9 +16,13 @@ The user can:
 
 A user can only edit their own profile, and only view and edit their own circles.
 
-## Setup/Installation Requirements
+#### Related GitHub Repositories
 
-* This application requires MySQL.
+* Circles MVC app (local database version): https://github.com/erik-t-irgens/CIRCLES_MVC
+* Circles Web API (local database version): https://github.com/schoinh/circles-api
+* Circles Web API (Azure hosted version): https://github.com/ejordan1/CirclesApiAzure
+
+## Setup/Installation Requirements
 
 1. Clone this repository:
     ```
@@ -45,9 +49,9 @@ None at this time.
 
 ## Support and contact details
 
-_Please submit a pull request with any feedback._
+_Please feel free to submit contributions._
 
-### License
+## License
 
 *GNU GPLv3*
 
