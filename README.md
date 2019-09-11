@@ -1,4 +1,4 @@
-# Circles
+# Circles - https://circlesapp.azurewebsites.net
 
 #### _Discover new friends and build social circles - August 16, 2019_
 
@@ -22,22 +22,16 @@ A user can only edit their own profile, and only view and edit their own circles
 
 1. Clone this repository:
     ```
-    $ git clone https://github.com/erik-t-irgens/circles_mvc.git
+    $ git clone https://github.com/schoinh/CirclesMVCAzure.git
     ```
-2. Open the App Settings file (CIRCLES_MVC/appsettings.json) and ensure that the MySQL username and password match your MySQL credentials.
-
-3. Log onto MySQL:
-    ```
-    $ mysql -u USERNAME -p PASSWORD
-    ```
-4. Navigate to the production folder (CIRCLES_MVC)
-5. Restore dependencies, update your local database, and run the application
+2. Navigate to the production folder (CIRCLES_MVC)
+3. Restore dependencies, update your local database, and run the application
     ```
     $ dotnet restore
     $ dotnet ef database update
     $ dotnet run
     ```
-7. On a Web browser (Chrome recommended), navigate to http://localhost:5002
+4. On a Web browser (Chrome recommended), navigate to http://localhost:5002
 
 ## Known Bugs
 None at this time.
@@ -48,11 +42,10 @@ None at this time.
 * ASP.NET Identity
 * Entity Framework Core
 * LINQ
-* MySQL
 
 ## Support and contact details
 
-_Please leave comments below with any feedback._
+_Please submit a pull request with any feedback._
 
 ### License
 
